@@ -207,7 +207,7 @@
 
 ```bash
 # استنساخ المشروع
-git clone https://github.com/your-repo/erp-system.git
+git clone https://github.com/gongstar43/Emerald-ERP.git
 
 # الدخول للمجلد
 cd erp-system
@@ -244,9 +244,17 @@ npm run dev
 
 ---
 
-## 🤝 **المساهمة**
+## 🤝 **المساهمة | Contributing**
 
-نرحب بمساهماتكم! يرجى قراءة [دليل المساهمة](./CONTRIBUTING.md) قبل البدء.
+نرحب بمساهمات المطورين! للمساهمة:
+
+1. **Fork** المستودع: [github.com/gongstar43/Emerald-ERP](https://github.com/gongstar43/Emerald-ERP)
+2. **استنساخ الـ Fork** وإنشاء فرع جديد (`git checkout -b feature/اسم-الميزة`)
+3. **التعديل والـ commit** ثم **رفع الفرع** وفتح **Pull Request** نحو المستودع الأصلي
+
+التفاصيل الكاملة: [دليل المساهمة](./CONTRIBUTING.md) (عربي / English).
+
+We welcome contributors! Fork the repo, create a branch, and open a Pull Request. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
 
 ---
 
@@ -258,10 +266,8 @@ npm run dev
 
 ## 📞 **الدعم**
 
-- 📧 Email: support@erpsystem.com
-- 💬 Discord: [Join our community](https://discord.gg/erpsystem)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/erp-system/issues)
-- 📖 Docs: [Documentation](https://docs.erpsystem.com)
+- 🐛 الإبلاغ عن مشكلة: [GitHub Issues](https://github.com/gongstar43/Emerald-ERP/issues)
+- 📂 المستودع: [github.com/gongstar43/Emerald-ERP](https://github.com/gongstar43/Emerald-ERP)
 
 ---
 
@@ -332,7 +338,7 @@ npm run dev
 
 **ERP System v6.0.0 - The Future of Business Management**
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-repo/erp-system?style=social)](https://github.com/your-repo/erp-system)
+[![GitHub Stars](https://img.shields.io/github/stars/gongstar43/Emerald-ERP?style=social)](https://github.com/gongstar43/Emerald-ERP)
 [![Follow](https://img.shields.io/twitter/follow/erpsystem?style=social)](https://twitter.com/erpsystem)
 
 </div>
