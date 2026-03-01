@@ -1,0 +1,25 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>User dashboard</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <script>
+        (function() {
+          var lang = localStorage.getItem('erp-lang') || 'ar';
+          var doc = document.documentElement;
+          doc.lang = lang;
+          doc.dir = lang === 'ar' ? 'rtl' : 'ltr';
+        })();
+      </script>
+    </head>
+
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  

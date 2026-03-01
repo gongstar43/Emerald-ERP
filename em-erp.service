@@ -1,0 +1,30 @@
+[Unit]
+Description=Emerald ERP - Vite Preview Server
+Documentation=https://github.com/your-repo/erp-system
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=admins
+Group=admins
+WorkingDirectory=/home/admins/Emerla-erp
+
+# تشغيل خادم العرض للإنتاج (يخدم مجلد dist على البورت 5173)
+ExecStart=/usr/bin/npm run preview
+
+# إعادة التشغيل عند الفشل
+Restart=always
+RestartSec=5
+
+# بيئة التشغيل (عدّل إذا استخدمت nvm أو مسار node مختلف)
+Environment=NODE_ENV=production
+Environment=PORT=5173
+
+# السجلات
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=em-erp
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-arabic: 'Cairo', 'Noto Sans Arabic', 'Tahoma', 'Arial', sans-serif;
+  --font-latin: 'Inter', system-ui, sans-serif;
+}
+
+/* اللغة العربية: خط واضح ودعم كامل للحروف والربط */
+html[lang="ar"],
+html[lang="ar"] body,
+html[lang="ar"] #root,
+html[dir="rtl"],
+html[dir="rtl"] body,
+html[dir="rtl"] #root {
+  font-family: var(--font-arabic);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html[lang="en"],
+html[lang="en"] body,
+html[lang="en"] #root {
+  font-family: var(--font-latin);
+}
